@@ -1,4 +1,7 @@
-body {font-family: 'Raleway', sans-serif; } 
+body {
+	font-family: 'Raleway', sans-serif; 
+	padding:0px;
+} 
 
 .navbar {
 	display: flex;
@@ -20,15 +23,16 @@ body {font-family: 'Raleway', sans-serif; }
 .content {
 	display: flex;
 	height: 100%;
+	border: 1px solid blue;
 }
 
 .image {
-	background-image: url(face1.jpg);
+	background-image: url("face1.jpg");
 	background-size: cover;
 	flex:2;
-	height: 100%
+	height: 100vh;
 	background-position: center;
-	background-repeat: no-repeat;
+	border: 1px solid green;
 }
 
 .text{
@@ -49,7 +53,11 @@ body {font-family: 'Raleway', sans-serif; }
 	text-decoration: none;
 }
 
-.button a:visited {
-	color: white;
-	text-decoration: none;
+.greybx	{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.click {
+	border-radius: 50%;
 }
