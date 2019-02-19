@@ -3,27 +3,33 @@ body {
 	padding:0px;
 } 
 
+a {
+	text-decoration: none;	
+}
+
+h1,h2 {
+	line-height: 0.2;
+}
+
 .navbar {
 	display: flex;
-	border: 1px solid black;
 	padding: 10px 10px;
 	justify-content: flex-end;
 }
 
 .nav1{
-	border: 1px solid red;
 	margin-right: auto;
 }
 
 .nav2 {	
-	border: 1px solid blue;
+	display: flex;
 	justify-content: space-between;
+	width: 30%;
 }
 
 .content {
 	display: flex;
 	height: 100%;
-	border: 1px solid blue;
 }
 
 .image {
@@ -32,7 +38,6 @@ body {
 	flex:2;
 	height: 100vh;
 	background-position: center;
-	border: 1px solid green;
 }
 
 .text{
@@ -50,14 +55,39 @@ body {
 	color: white;
 	border-radius: 5px;
 	padding: 10px;
-	text-decoration: none;
 }
 
 .greybx	{
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-size: smaller;
 }
 
 .click {
 	border-radius: 50%;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	height: 60px;
+	background-color: rgba(255,255,255, 0.87);
+	width: 100%;
+	padding-top: 10px 10px 0px;
+	box-shadow: 0px -3px 4px #DCDCDC;
+}
+
+.footer-pos {
+	display: flex;
+	width: 40%;
+	margin-top:10px;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.footer-txt {
+	display: flex; 
+	align-content: center;
+	margin-top: 10px; 
+	/*can't get text vertically centered with flex*/
 }
