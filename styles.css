@@ -13,8 +13,9 @@ h1,h2 {
 
 .navbar {
 	display: flex;
-	padding: 10px 10px;
+	padding: 21px 10px;
 	justify-content: flex-end;
+	border-bottom: 1px solid #CCCCCC;
 }
 
 .nav1{
@@ -35,7 +36,7 @@ h1,h2 {
 .image {
 	background-image: url("face1.jpg");
 	background-size: cover;
-	flex:2;
+	flex:3;
 	height: 100vh;
 	background-position: center;
 }
@@ -55,6 +56,11 @@ h1,h2 {
 	color: white;
 	border-radius: 5px;
 	padding: 10px;
+}
+
+.button:hover {
+	background-color: rgb(69,108,155);
+	border-style: 1px solid #305B90;
 }
 
 .greybx	{
@@ -90,4 +96,17 @@ h1,h2 {
 	align-content: center;
 	margin-top: 10px; 
 	/*can't get text vertically centered with flex*/
+}
+
+.buttontwo {
+	background-color: #0872B4;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	font-style: ;
+}
+
+.buttontwo:hover {
+	background-color: rgb(7,99,156);
 }
